@@ -1,0 +1,22 @@
+/** Create your own store! Your store should sell one type of things, like clothing or bikes, whatever you want your store to specialize in. You should have a table for all the items in your store, and at least 5 columns for the kind of data you think you'd need to store. You should sell at least 15 items, and use select statements to order your items by price and show at least one statistic about the items.
+
+CREATE TABLE clothing (id INTEGER PRIMARY KEY, item_type TEXT, quantity INTEGER, price INTEGER, size TEXT);
+
+INSERT INTO clothing VALUES (1,"Shirt",3, 40.00,"M");
+INSERT INTO clothing VALUES (2,"Shorts", 2 ,20.00,"S");
+INSERT INTO clothing VALUES (3,"Tank Top", 4,80.00, "M");
+INSERT INTO clothing VALUES (4,"Pants", 2, 60.00 ,"L");
+INSERT INTO clothing VALUES (5,"Jeans", 3,100.00, "L");
+INSERT INTO clothing VALUES (6,"Panties", 6, 35.00,"M");
+INSERT INTO clothing VALUES (7, "Bras", 4 , 30.00,"M");
+INSERT INTO clothing VALUES (8,"Skirt", 6, 50.00 , "S");
+INSERT INTO clothing VALUES (9,"Shoes",3,120.00, "M");
+INSERT INTO clothing VALUES (10,"Sandals", 2, 30.00 ,"M");
+INSERT INTO clothing VALUES (11,"Shirts", 4, 50.00, "S");
+INSERT INTO clothing VALUES (12,"Jeans",4, 150.00, "S");
+INSERT INTO clothing VALUES (13,"Pants",1,30.00, "L");
+INSERT INTO clothing VALUES (14,"Bras", 5,40.00,"M");
+INSERT INTO clothing VALUES (15,"Shoes",5,200.00, "L");
+Select * from clothing 
+order by price;
+select sum(price) from clothing;
