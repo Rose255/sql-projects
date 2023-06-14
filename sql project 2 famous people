@@ -10,11 +10,11 @@ CREATE TABLE billionares (
     age INTEGER,
     nationality TEXT);
     
-INSERT INTO billionares (fullname, age, nationality) VALUES ("Jeff Bezos", 54, "US");
-INSERT INTO billionares (fullname, age, nationality) VALUES ("Bill Gates", 62, "US");
-INSERT INTO billionares (fullname, age, nationality) VALUES ("Warren Buffet", 87, "US");
-INSERT INTO billionares (fullname, age, nationality) VALUES ("Bernard Arnault", 69, "France");
-INSERT INTO billionares (fullname, age, nationality) VALUES ("Mark Zucherberg", 33, "US");
+INSERT INTO billionares (fullname, age, nationality) VALUES ("Jeff Bezos", 56, "US");
+INSERT INTO billionares (fullname, age, nationality) VALUES ("Bill Gates", 65, "US");
+INSERT INTO billionares (fullname, age, nationality) VALUES ("Warren Buffet", 89, "US");
+INSERT INTO billionares (fullname, age, nationality) VALUES ("Bernard Arnault", 73, "France");
+INSERT INTO billionares (fullname, age, nationality) VALUES ("Mark Zucherberg", 35, "US");
 
 CREATE table wealth (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -22,11 +22,11 @@ CREATE table wealth (
     net_worth TEXT,
     source_wealth TEXT);
     
-INSERT INTO wealth (billionare_id, net_worth, source_wealth) VALUES (1, "112 billion", "Amazon");
-INSERT INTO wealth (billionare_id, net_worth, source_wealth) VALUES (2, "90 billion", "Microsoft");
-INSERT INTO wealth (billionare_id, net_worth, source_wealth) VALUES (3, "84 billion", "Berkshire Hathaway");
-INSERT INTO wealth (billionare_id, net_worth, source_wealth) VALUES (4, "72 billion", "LVMH");
-INSERT INTO wealth (billionare_id, net_worth, source_wealth) VALUES (5, "71 billion", "Facebook");
+INSERT INTO wealth (billionare_id, net_worth, source_wealth) VALUES (1, "130 billion", "Amazon");
+INSERT INTO wealth (billionare_id, net_worth, source_wealth) VALUES (2, "99 billion", "Microsoft");
+INSERT INTO wealth (billionare_id, net_worth, source_wealth) VALUES (3, "87 billion", "Berkshire Hathaway");
+INSERT INTO wealth (billionare_id, net_worth, source_wealth) VALUES (4, "79 billion", "LVMH");
+INSERT INTO wealth (billionare_id, net_worth, source_wealth) VALUES (5, "80 billion", "Facebook");
 
 
 /*Return total net worth for each billionare*/
